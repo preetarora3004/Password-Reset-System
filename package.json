@@ -1,0 +1,16 @@
+{
+  "name": "password_reset_system",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+    "workspaces": [
+        "server",
+        "db"
+    ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
